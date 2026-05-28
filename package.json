@@ -1,0 +1,16 @@
+{
+  "name": "tradingview-udf-server",
+  "version": "1.0.0",
+  "description": "TradingView UDF Data Feed Server with real OHLCV data",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
+}
